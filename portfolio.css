@@ -31,11 +31,28 @@ header{
     text-align: center;
     top: 275px;
 }
+/* .icons:hover{
+    color:red;
+    opacity: .2;
+} */
 .fab.fa-linkedin.fa-5x{
     padding: 40px;
+    color: rgb(82, 118, 148);
+    opacity: 1;
 }
-.fab.fa-github.fa-5x{
+.fab.fa-github.fa-5x {
     padding: 40px;
+    color: rgb(82, 118, 148);
+
+}
+.fab.fa-linkedin.fa-5x:hover {
+    padding: 40px;
+    color: rgb(148, 82, 128);
+}
+.fab.fa-github.fa-5x:hover {
+    padding: 40px;
+    color: rgb(148, 82, 128);
+
 }
 .fas.fa-angle-double-right{
     padding: 6px;
@@ -80,7 +97,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
     width: auto;
     margin-top: 550px;
     margin-left: 6px;
@@ -93,6 +110,9 @@ main{
     height: 300px;
     margin: 5px;
     margin-right: 100px;
+    flex-wrap: wrap;
+    margin:5px;
+
     /* border: ridge black */
 }
 #projects{
@@ -105,6 +125,7 @@ main{
         "pic1 pic1"
         "project2 project2"
         "pic2 pic2";
+        margin-left: 100px;
 }
 #title{
     grid-area: project;
@@ -145,9 +166,9 @@ main{
 } 
 .flex-nav{
     display:flex;
-    color: black;
     flex-direction: row;
     justify-content: space-evenly;
+    color: black;
     align-items: stretch;
     margin-top: 100px;
     padding: 10px;

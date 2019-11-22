@@ -1,0 +1,91 @@
+nav{
+    margin-top: 3px;
+    text-align: center;
+    position: sticky;
+}
+
+.top_background{
+    background-image: url("top_photo.jpg");
+    background-size: cover;
+    /* margin:6px; */
+    /* border-radius: 6%; */
+    height: 700px
+    /* padding: 300px; */
+}
+header{
+    text-align: center;
+    margin: 70px;
+}
+#about, main, .top_background{
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    /* margin:100px; */
+}
+.icons{
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 275px;
+}
+.fab.fa-linkedin.fa-5x{
+    padding: 40px;
+}
+.fab.fa-github.fa-5x{
+    padding: 40px;
+}
+body{
+    background-color:rgba(190, 189, 189, 0.651);
+}
+img{
+    display:block;
+    margin:auto;
+    height: 300px;
+    width: 536px;
+    position: relative;
+    /* left:calc(50% - 200px); */
+    top: 350px;
+    border-radius: 20%;
+}
+#about{
+    display: block;
+    position: relative;
+    margin: auto;
+    width:600px;
+    text-align: center;
+    top: 325px;  
+}
+ul li:before
+{
+    content: '\f101';
+    margin: 0 1em;    /* any design */
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    width: auto;
+    margin-top: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#experience{
+    /* text-align: center; */
+    padding:6px;
+    width:50%;
+    height: 300px;
+    margin: 5px;
+    /* border: ridge black */
+}
+#projects{
+    text-align: center;
+    padding:6px;
+    width: 50%;
+    height: 300px;
+    margin: 5px;
+    /* border: ridge black; */
+}

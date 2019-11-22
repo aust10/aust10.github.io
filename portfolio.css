@@ -37,10 +37,13 @@ header{
 .fab.fa-github.fa-5x{
     padding: 40px;
 }
+.fas.fa-angle-double-right{
+    padding: 6px;
+}
 body{
     background-color:rgba(190, 189, 189, 0.651);
 }
-img{
+#middle-pic{
     display:block;
     margin:auto;
     height: 300px;
@@ -58,18 +61,28 @@ img{
     text-align: center;
     top: 325px;  
 }
-ul li:before
-{
-    content: '\f101';
-    margin: 0 1em;    /* any design */
+.contact{
+    font-family: 'Italianno', cursive;
+    font-size: 2em;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #222;
+}
+.email{
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1 em;
+    line-height: 1.6;
+    font-weight: 100;
+    color: #222;
+    margin:5px;
 }
 main{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     /* flex-wrap: nowrap; */
     width: auto;
-    margin-top: 600px;
+    margin-top: 550px;
     margin-left: 6px;
     margin-right: 6px;
 }
@@ -79,13 +92,63 @@ main{
     width:50%;
     height: 300px;
     margin: 5px;
+    margin-right: 100px;
     /* border: ridge black */
 }
 #projects{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "project project"
+        "project1 project1"
+        "pic1 pic1"
+        "project2 project2"
+        "pic2 pic2";
+}
+#title{
+    grid-area: project;
+}
+#project1{
+    grid-area: project1;
+}
+#project2{
+    grid-area: project2;
+}
+#python{
+    grid-area: pic1;
+}
+#html{
+    grid-area: pic2;
+}
+    /* display:grid;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
+    flex-wrap: nowrap;
     padding:6px;
     width: 50%;
     height: 300px;
-    margin: 5px;
+    margin: 6px; */
     /* border: ridge black; */
+
+ #python, #html{
+    
+    /* margin:5px;
+    padding:6px; */
+    height: 116px;
+    width: 136px;
+    /* position: relative;
+    /* right:calc(25%-100px); */
+    
+    border-radius: 20%;
+} 
+.flex-nav{
+    display:flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 100px;
+    padding: 10px;
 }

@@ -4,6 +4,7 @@
         <title>Austen Cote</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/ddcbf296a9.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="normalize.css"/>
         <link rel="stylesheet" href="skeleton.css"/>
         <link rel="stylesheet" href="portfolio.css"/>
@@ -17,37 +18,49 @@
         <header>
             <h1>Austen Cote</h1>
         </header>
-        <img src="main.JPG">
+        <img id="middle-pic" src="main.JPG">
     </div>
     <div class="icons">
         <i class="fab fa-linkedin fa-5x"></i>
-        <i class="fab fa-github fa-5x"></i>
+        <a href="#https://github.com/PdxCodeGuild/class_pangolin/tree/master/code/austen" class="fab fa-github fa-5x"></a>
     </div>
     <div id="about">
         <h3>About Me</h3>
         <p>Welcome to the about me section, I am Austen and I have recently departed the military to     persue a career in tech. I like the challenge of making something from nothing and with progaming it makes it interesting seeing the different flares you can put any givin thing.</p>
+        <p class="contact">Contact Information:</p>
+        <p class="email">Email: a&lowbar;cote@comcast.net</p>
     </div>
     <main>
         <section id="experience">
             <h3>Experience</h3>
             <ul>
-                <!-- <i class="fas fa-angle-double-right fa-2x">I am attending PDX code guild full stack developer bootcamp in order to expand my knowledge within the tech industry</i>
-                <i class="fas fa-angle-double-right fa-2x">Transitioning from military life to tech life</i> -->
-                <li>I am attending PDX code guild full stack developer bootcamp in order to expand my         knowledge within the tech industry</li>
-                <li>Transitioning from military life to tech life</li>
+                <i class="fas fa-angle-double-right">Transitioning from military life to tech life</i><br>
+                <i class="fas fa-angle-double-right"> I am attending PDX code guild full stack developer bootcamp in order to expand my knowledge within the tech industry</i>
             </ul>
         </section>
         <section id="projects">
-            <h3>Projects</h3>
-            <ul>
-                <i class="fas fa-angle-double-right fa-2x">Still working</i>
-                <i class="fas fa-angle-double-right fa-2x">Still working</i>
-                <i class="fas fa-angle-double-right fa-2x">Still working</i>
-            </ul>
+            <h3 id="title">Projects</h3>
+            <section id="project1">
+                <p>Python project</p>
+                <img id="python" src="snipit.jpg">
+            </setion>
+            <section id="project2">
+                <p>Html project</p>
+                <img id="html" src="snipit.jpg">
+            </section>
+            <!-- <ul> -->
+                <!-- <p>Python Project<img id="python" src="snipit.jpg"></p>
+                <img id="python" src="snipit.jpg"> -->
+                <!-- <i class="fas fa-angle-double-right"> Still working</i><br>
+                <i class="fas fa-angle-double-right"> Still working</i>
+            </ul> -->
         </section>
     </main>
+    <footer>
+        <nav class="flex-nav">
+            <p>2019</p>
+            <p><a href="#experience">Experience</a></p>
+            <p><a href="#about">About Me</a></p>
+            <p><a href="#projects">Projects</a></p>
+    </footer>
 </html>
-    <!-- <footer>
-        <p>this is the footer </p>
-        <i class="fab fa-linkedin"></i>
-    </footer> -->

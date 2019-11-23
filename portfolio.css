@@ -155,6 +155,7 @@ main{
 
  #python, #html{
     
+    
     /* margin:5px;
     padding:6px; */
     height: 116px;
@@ -164,6 +165,12 @@ main{
     
     border-radius: 20%;
 } 
+#python:hover{
+    border:3px solid gray
+}
+#html:hover{
+    border: 3px solid gray
+}
 .flex-nav{
     display:flex;
     flex-direction: row;

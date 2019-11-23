@@ -100,11 +100,11 @@ main{
     flex-wrap: wrap;
     width: auto;
     margin-top: 550px;
-    margin-left: 6px;
+    margin-left: 50px;
     margin-right: 6px;
 }
 #experience{
-    /* text-align: center; */
+    text-align: center;
     padding:6px;
     width:50%;
     height: 300px;
@@ -125,7 +125,7 @@ main{
         "pic1 pic1"
         "project2 project2"
         "pic2 pic2";
-        margin-left: 100px;
+        margin-left: 200px;
 }
 #title{
     grid-area: project;
@@ -167,9 +167,9 @@ main{
 .flex-nav{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    color: black;
+    justify-content: center;
     align-items: stretch;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 10px;
 }

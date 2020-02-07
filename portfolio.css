@@ -128,7 +128,9 @@ main{
         "project1"
         "pic1"
         "project2"
-        "pic2";
+        "pic2"
+        "project3"
+        "pic3";
         margin-left: 200px;
 }
 #title{
@@ -145,6 +147,12 @@ main{
 }
 #html{
     grid-area: pic2;
+}
+#project3{
+    grid-area: project3
+}
+#vue{
+    grid-area: pic3
 }
     /* display:grid;
     flex-direction: row;

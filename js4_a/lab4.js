@@ -34,12 +34,13 @@ submit.addEventListener('click', function(e){
 });
 
 deleteIt.addEventListener('click', function(){
-    let checkboxes = target.querySelectorAll("input[type='checkbox'].delete-checkbox");
+    let checkboxes = document.querySelectorAll("input[type='checkbox'].delete-checkbox");
     for (let i=0; i < checkboxes.length; i++) {
         if (checkboxes[i].checked) {
             checkboxes[i].parentElement.remove()
         } 
     }
+    
 });
 
 moveIt.addEventListener('click', function(){

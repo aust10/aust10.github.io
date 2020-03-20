@@ -132,11 +132,13 @@ main{
         "pic3";
         margin-left: 200px;
 } */
-#projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* width: 400px; */
+@media (min-width: 768px) {
+    #projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* width: 400px; */
+    }
 }
 /* #title{
     grid-area: project;

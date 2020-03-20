@@ -137,7 +137,7 @@ main{
     flex-direction: column;
     width: 400px;
 }
-#title{
+/* #title{
     grid-area: project;
 }
 #project1{
@@ -157,7 +157,7 @@ main{
 }
 #vue{
     grid-area: pic3
-}
+} */
     /* display:grid;
     flex-direction: row;
     justify-content: space-between;

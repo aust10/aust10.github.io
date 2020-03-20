@@ -133,9 +133,10 @@ main{
         margin-left: 200px;
 } */
 #projects {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
     /* width: 400px; */
-    margin:auto;
 }
 /* #title{
     grid-area: project;

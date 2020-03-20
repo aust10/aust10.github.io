@@ -133,9 +133,9 @@ main{
         margin-left: 200px;
 } */
 #projects {
-    flex-direction: column;
-    width: 400px;
-    margin-right:auto;
+    flex-direction: row;
+    /* width: 400px; */
+    margin:auto;
 }
 /* #title{
     grid-area: project;

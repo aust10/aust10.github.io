@@ -75,7 +75,7 @@ body{
 }
 #about{
     display: block;
-    position: relative;
+    /* position: relative; */
     margin: auto;
     width:800px;
     text-align: center;
@@ -101,7 +101,7 @@ main{
     justify-content: flex-start;
     /* flex-wrap: nowrap; */
     width: auto;
-    margin-top: 550px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 6px;
 }
